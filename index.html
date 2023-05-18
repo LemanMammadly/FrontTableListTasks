@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table List</title>
+</head>
+<body>
+    <ol>
+        <li><a href="#1" style="text-decoration:none;">Lists</a></li>
+        <li><a href="#2" style="text-decoration:none;">Tables</a></li>
+        <li><a href="#3" style="text-decoration:none;">Forms</a></li>
+    </ol>
+    <hr/> 
+    <h1 id="1">Lists</h1>
+    <!-- List of Indian States with their capital   -->
+    <p>List of Indian States with their capital</p>
+    <ol>
+        <li>Delhi</li>
+        <ul>
+            <li>New Delhi</li>
+        </ul>
+        <li>Haryana</li>
+        <ul>
+            <li>Chandigarg</li>
+        </ul>
+        <li>Gujarat</li>
+        <ul>
+            <li>Gandhinagar</li>
+        </ul>
+        <li>Rajastan</li>
+        <ul>
+            <li>Jaipur</li>
+        </ul>
+        <li>Marahasthra</li>
+        <ul>
+            <li>Mumbai</li>
+        </ul>
+        <li>Uttarpradesh</li>
+        <ul>
+            <li>Lucknow</li>
+        </ul>
+    </ol>
+
+    <hr/>
+
+    <!-- Fruits -->
+
+    <ul>
+        <li>Fruit</li>
+        <ul>
+            <li>Bananas</li>
+            <li>Apples</li>
+            <ul type="square">
+                <li>Green</li>
+                <li>Red</li>
+            </ul>
+            <li>Pears</li>
+        </ul>
+        <li>Vegetables</li>
+        <li>Meat</li>
+    </ul>
+
+    <hr/>
+
+    <!-- Unordered Lists -->
+    <h2>Unordered Lists</h2>
+        <h4>Disc</h4>
+        <ul type="disc" style="font-weight:lighter;">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ul>
+        <h4>Square</h4>
+        <ul type="square" style="font-weight:lighter;">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ul>
+        <h4>Circle</h4>
+        <ul type="circle" style="font-weight:lighter;">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ul>
+        <h4>None-no bullets</h4>
+        <ul type="none" style="font-weight:lighter;">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ul>
+
+        <hr/>
+
+        <!-- Tables  -->
+        <h1 id="2">Tables</h1>
+        <table border="1" cellspacing="0" width="150px" height="150px" style="text-align: center;">
+            <tr>
+                <td colspan="3">1</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+
+        <hr/>
+
+        <table border="1" cellspacing="0" width="150px" height="150px" style="text-align: center;">
+            <tr>
+                <td></td>
+                <td rowspan="2"></td>
+                <td rowspan="3"></td>
+                <td rowspan="4"></td>
+                <td rowspan="5"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <hr/>
+        <table border="1" cellspacing="0" width="150px" height="150px" style="text-align: center;">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+
+        <hr/>
+        <table  border="1" cellspacing="0" width="150px" height="150px" style="text-align: center;">
+            <tr>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+        </table>
+
+        <hr/>
+
+        <table border="1" cellspacing="0" width="150px" height="150px" style="text-align: center;" cellpadding="10">
+            <thead>
+                <tr>
+                    <th colspan="6">Time Table</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="6">Hours</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Arts</td>
+                </tr>
+                <tr>
+                    <td>Social</td>
+                    <td>History</td>
+                    <td>English</td>
+                    <td>Social</td>
+                    <td>Sports</td>
+                </tr>
+                <tr>
+                    <th colspan="5">Lucnh</th>
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td rowspan="2">Project</td>
+                </tr>
+                <tr>
+                    <td>Social</td>
+                    <td>History</td>
+                    <td>English</td>
+                    <td>Social</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr/>
+
+        <table border="1" style="text-align: center;" cellpadding="20">
+        <caption style="font-weight: bold;">Futbol Scores</caption>
+            <tr>
+                <th colspan="5">Home Team</th>
+                <th colspan="5">Away Team</th>
+            </tr>
+            <tr>
+                <td colspan="4"> Arsenal</td>
+                <td>2</td>
+                <td colspan="4">Leeds</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="4">Derby</td>
+                <td>1</td>
+                <td colspan="4">Everton</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="4">Liverpool</td>
+                <td>0</td>
+                <td colspan="4">Sunderland</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td colspan="4">Newcastle</td>
+                <td>1</td>
+                <td colspan="4">Mant Utd</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+        <hr/>
+
+        <!-- Subject -->
+
+        <table border="1" style="text-align: center;" cellpadding="10" cellspacing="0">
+            <tr>
+                <td colspan="2">Subject</td>
+                <td>John Doe</td>
+                <td>Miriam Luther</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Biology</td>
+                <td>Practical</td>
+                <td>A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Theory</td>
+                <td>A+</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Chemistry</td>
+                <td>Practical</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Theory</td>
+                <td>A</td>
+                <td>C+</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Pysics</td>
+                <td>Practical</td>
+                <td>A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Theory</td>
+                <td>A-</td>
+                <td>A-</td>
+            </tr>
+           
+        </table>
+        <hr/>    
+        <!-- Contacts -->
+        <table border="1" style="text-align: center;" cellpadding="10" cellspacing="0">
+            <tr>
+                <td colspan="2">Contacts</td>
+                <td colspan="7">Teams</td>
+            </tr>
+            <tr>
+                <td style="background-color: #C1C1C1;">Name</td>
+                <td style="background-color: #C1C1C1;">Position</td>
+                <td>Team 1</td>
+                <td>Team 2</td>
+                <td>Team 3</td>
+                <td>Team 4</td>
+                <td>Team 5</td>
+                <td>Team 6</td>
+                <td>Team 7</td>
+            </tr>
+            <tr>
+                <td style="background-color: #C1C1C1;">Chric James</td>
+                <td style="background-color: #C1C1C1;">1</td>
+                <td>x</td>
+                <td style="background-color: #F5EFC0;"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>x</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="background-color: #C1C1C1;">John Harris</td>
+                <td style="background-color: #C1C1C1;">1</td>
+                <td></td>
+                <td>x</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="background-color: #C1C1C1;">Carl Black</td>
+                <td style="background-color: #C1C1C1;">4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>x</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="background-color: #C1C1C1;">James Court</td>
+                <td style="background-color: #C1C1C1;">8</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="background-color: #C1C1C1;">Roy Robinson</td>
+                <td style="background-color: #C1C1C1;">1</td>
+                <td>x</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>x</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <hr/>
+        <!-- Question -->
+        <table  border="1" style="text-align: center;" cellpadding="10">
+            <tr>
+                <th>Question No.</th>
+                <th>Question</th>
+                <th>Answer</th>
+                <th>Marks per Answer</th>
+                <th>Total Marks</th>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">Name three features in a ROM</td>
+                <td>A</td>
+                <td></td>
+                <td rowspan="3">5</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Here is a single answer</td>
+                <td>True</td>
+                <td></td>
+                <td>5</td>
+            </tr>
+        </table>
+
+        <hr/>
+        <!-- Header -->
+        <table  border="1" style="text-align: center;" cellpadding="10">
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+            <tr>
+                <td rowspan="4">You can span down.</td>
+                <td colspan="3">You can span across.</td>
+            </tr>
+            <tr>
+                <td colspan="2">It's like a puzzle.</td>
+                <td rowspan="3">Over here.</td>
+            </tr>
+            <tr>
+                <td rowspan="2">This way.</td>
+                <td>That way.</td>
+            </tr>
+            <tr>
+                <td>Where am I?</td>
+            </tr>
+        </table>
+        <hr/>
+        <!-- Alpha -->
+
+        <table  border="1" style="text-align: center;" cellpadding="10">
+            <tr>
+                <td colspan="3">alfa</td>
+                <td>bravo</td>
+                <td rowspan="2">charlie</td>
+            </tr>
+            <tr>
+                <td>delta</td>
+                <td>echo</td>
+                <td>foxtrot</td>
+                <td>golf</td>
+            </tr>
+            <tr>
+                <td>hotel</td>
+                <td colspan="3" rowspan="2">india</td>
+                <td>juliet</td>
+            </tr>
+            <tr>
+                <td>kilo</td>
+                <td>lima</td>
+            </tr>
+            <tr>
+                <td>mike</td>
+                <td>november</td>
+                <td>oscar</td>
+                <td>papa</td>
+                <td>quebec</td>
+            </tr>
+        </table>
+
+        <hr/>
+        <!-- My Multi -->
+        <table border="1" style="text-align: center;" cellpadding="10">
+            <caption style="background-color: #CCCCCC;">My Multi Level Table</caption>
+            <tr>
+                <th rowspan="2" colspan="2">Column 0</th>
+                <th rowspan="2">Column 1</th>
+                <th colspan="2">Column 2</th>
+            </tr>
+            <tr>
+                <th>Column 2A</th>
+                <th>Column 2B</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Row 1</th>
+                <th>Row 1A</th>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+            <tr>
+                <th>Row 1B</th>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+            <tr>
+                <th colspan="2">Row 2</th>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+        </table>
+
+        <hr/>
+
+        <h1 id="3">Forms</h1>
+        <!-- Forms -->
+        <h1>Zoo Keeper Application Form</h1>
+        <em>Please complete the form.Mandatory fields are marked with a <span style="color: red;">*</span></em>
+        <br/>
+        <br/>
+        <form>
+            <fieldset>
+                <legend><b>Contact Details</b></legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Name <span style="color: red;">*</span></label></td>
+                        <td><input type="text" id="name" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telephone">Telephone</label> </td>
+                        <td><input type="tel" id="telephone" placeholder="Enter your telephone"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email <span style="color: red;">*</span></label> </td>
+                        <td><input type="email" id="email" placeholder="Enter your email"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br/>
+            <br/>
+            <fieldset>
+                <legend><b>Personal Information</b></legend>
+                <table>
+                    <tr>
+                        <td><label for="age"><span style="color: red;">*</span> Age</label></td>
+                        <td><input type="text" id="age" placeholder="Enter your age"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label> </td>
+                        <td>
+                            <select id="gender">
+                                <option value="Female">Female</option>
+                                <option value="Male">Male</option>
+                                <option value="Others">Others</option>
+                            </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label for="textarea">When did you <br> first know you <br> wanted to be a <br> zoo-keeper?</label> </td>
+                        <td><textarea style="resize: none;" id="textarea" cols="16" rows="5"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br/>
+            <br/>
+            <fieldset>
+                <legend><b>Pick Your Favorite Animals</b></legend>
+                <table>
+                  <tr>
+                    <td>
+                        <input id="zebra" type="checkbox">
+                        <label for="zebra">Zebra</label>
+                    </td>
+                    <td>
+                        <input id="cat" type="checkbox">
+                        <label for="cat">Cat</label>
+                    </td>
+                    <td>
+                        <input id="anaconda" type="checkbox">
+                        <label for="anaconda">Anaconda</label>
+                    </td>
+                    <td>
+                        <input id="human" type="checkbox">
+                        <label for="human">Human</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input id="elephant" type="checkbox">
+                        <label for="elephant">Elephant</label>
+                    </td>
+                    <td>
+                        <input id="wildebeest" type="checkbox">
+                        <label for="wildebeest">Wildebeest</label>
+                    </td>
+                    <td>
+                        <input id="pigeon" type="checkbox">
+                        <label for="pigeon">Pigeon</label>
+                    </td>
+                    <td>
+                        <input id="crab" type="checkbox">
+                        <label for="crab">Crab</label>
+                    </td>
+                  </tr>
+                </table>
+            </fieldset>
+            <br/>
+            <button style="border:3px #8cbeca solid; padding: 5px; cursor: pointer;" type="submit">Submit Application</button>
+        </form>
+</body>
+</html>
